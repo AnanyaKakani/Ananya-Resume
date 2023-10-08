@@ -1,0 +1,261 @@
+\documentclass[letterpaper,8pt]{article}
+\usepackage{fancyhdr}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\RequirePackage{fontawesome}
+
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+\begin
+    {center}\textbf{\huge \scshape Shiva Kumar Dande} \\ \vspace{0.8pt} 
+     % Boston,MA \\ \vspace{1pt}
+    \small Boston, MA$|$ +1(617)238-4288 $|$ \href{mailto:dande.sh@northeastern.edu} {\textcolor{blue}{\underline{dande.sh@northeastern.edu}}} $|$ 
+    \href{https://www.linkedin.com/in/shivakumardande/}{\textcolor{blue}{\underline{LinkedIn}}} $|$
+    \href{https://github.com/ShivaKumarDande}{\textcolor{blue}{\underline{GitHub}}} $|$
+    {\small Available: Fall Semester 2023}
+\end {center}
+
+
+%-----------Education-----------
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Northeastern University}{Boston,MA}
+      {MS in Electrical and Computer Engineering; \textbf{GPA: 3.69/4.0}} {Sep 2022 - Expected May 2024}
+
+        {
+    \vspace{1pt}
+    Coursework - Fundamentals of Computer Engineering, Applied Probability and Stochastic Processes, Computer Vision, Introduction to Machine Learning and Pattern Recognition}
+% \textbf{GPA: 9.9/10}
+      \resumeSubheading
+      {Jawaharlal Nehru Technological University}{   Telangana, India}
+      {Bachelor of Technology in Electronics and Communication Engineering;  \textbf{GPA: 9.9/10.0}}{Aug 2015- Apr 2019}
+      
+      {
+      \vspace{1pt}
+      Coursework: Computer Architecture and Organization, Microprocessors and Microcontrollers, Electronic Devices and Circuits, Digital Design, Electronic Circuit Analysis, Electrical Circuits, Signals and Systems, Digital Signal Processing, VLSI Design, Problem Solving and Data Structures through C, Embedded C.}
+     
+  \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: C, Python, C++, MATLAB, Shell Scripting, Java, SQL, System Verilog.} \\
+     \textbf{Libraries}{: Pandas, Numpy, Matplotlib, OpenCV, TensorFlow, Code Collaborator.} \\
+    \textbf{Frameworks and Methodologies}{: Tensorflow, Scikit-Learn, Pytorch. } \\
+     \textbf{Developer Tools}{:Systemd, Xilinx Vivado, Yocto, Bitbake, Cross build Systems, QEMU, LDRA Tool Suite, MFG, GitHub, VS Code, Eclipse, Jenkins, JIRA.} \\
+     \textbf{Hardware Design Skills}{: RTL Design, Digital Systems Design, FPGA Programming, IoT Firmware Development.} \\
+     \textbf{Communication Interfaces}{: SPI, I2C, UART, CAN, Ethernet.}\\
+     \textbf{Firmware and Systems Development}{: Skilled in Embedded Linux, U-Boot bootloader - configuration and troubleshooting}\\
+     %\textbf{Firmware Development}{: Proficient in the design, development, and testing of firmware. Experience in writing and debugging firmware code.}\\
+     
+
+%\textbf{U-Boot}{: Skilled in using U-Boot bootloader, including configuring and troubleshooting.}\\
+     
+     
+     
+     
+    }}
+ \end{itemize}
+ 
+
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Northeastern University}{\textbf{Jan 2022 -- Present}}
+     {Graduate Teaching Assistant for EECE2323 Fundamentals of Digital Design and Computer Organisation} {Boston, MA}
+      \resumeItemListStart
+        \resumeItem{Facilitated student understanding of Systemverilog, emphasizing on embedded system design and programming.}
+        \resumeItem{Aided students in executing design projects using Xilinx Vivado, bolstering their hands-on skills.}
+        \resumeItem{Guided students in reading schematics and utilizing oscilloscopes, logic analyzers, and multimeters to troubleshoot and analyze electrical circuits.}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Larsen \& Toubro Technology Services}{\textbf{Feb 2020 -- Jul 2022}}
+     {Embedded Systems and Firmware Engineer - Full Time} {Karnataka, India}
+      \resumeItemListStart
+        \resumeItem{Developed a customized Linux based Operating System for Imx6 embedded devices using Yocto Tool.}
+        \resumeItem{Crafted firmware to facilitate multi-OS installation on single device through strategic partitioning of board memory, leveraging MFG Tool.}
+        \resumeItem{Augmented embedded systems with remote updating, automated package creation through swupdate integration with Yocto.}
+        \vspace{-10pt}
+        \resumeItem{Devised a rollback mechanism for Kernel and OS to handle system failures, leveraging the U-Boot bootloader environment.}
+        \resumeItem{Strategically customized and configured U-Boot to meet unique client needs, ensuring optimal system performance.}
+        \resumeItem{Developed an optimized shell-scripted workflow program for embedded systems, achieving a remarkable reduction in CPU usage from above 75\% to 30\%, demonstrating expertise in writing clean code with effective abstraction boundaries.}
+        \resumeItem{Developed firmware to establish communication links via CAN, UART, I2C protocols between controllers and various devices.}
+        \vspace{-10pt}
+        \resumeItem{Skilled in managing OTA software updates for IoT devices and embedded systems through Bosch IoT Rollouts.}
+       \resumeItem{Created a bash script for performing automated testing of C++ files and decreasing manual efforts by 30\%.}
+        % \resumeItem{Sole responsible for Website development using Angular which reports and points the disparities for easy resolution.}
+        \resumeItemListEnd
+        \vspace{-2pt}
+        \resumeItem{\textbf{Key Achievement}}
+        \vspace{-5pt}
+        \resumeItemListStart
+        \resumeItem{Sole responsible for project development for over a year, took complete ownership of complex problems, client inquiries, requests, and testing, achieving project success and client satisfaction, recognized with a Customer Appreciation Bonus.}
+        \resumeItemListEnd
+        
+        % \resumeItem{Sole responsible for Website development using Angular which reports and points the disparities for easy resolution.}
+        
+  %         
+
+\section{Projects}
+\vspace{-8pt}
+    \resumeProjectHeading
+        {\href{https://github.com/ShivaKumarDande/Projects/tree/main/Autonomous\%20Vehicle\%20Object\%20Detection\%20using\%20YOLOv3}{\textcolor{blue}{\textbf{Autonomous Vehicle Object Detection}}} \emph{$|$Python, Pytorch, OpenCV, Machine Learning} }{\textbf{April 2023}}
+        \resumeItemListStart
+            \resumeItem{Developed a custom YOLOv3 model in PyTorch, attaining 91\% test MAP on the PASCAL VOC dataset.}
+            \resumeItem{Enabled real-time video object detection on a web app with a low 1.2s latency.}
+            \resumeItem{Demonstrated YOLOv3's effectiveness in GTA 5 for detecting objects and improving navigation safety.}
+
+
+     \resumeItemListEnd
+     \vspace{1pt}
+     \resumeProjectHeading
+        {\href{https://github.com/ShivaKumarDande/Projects/blob/main/MCC_Task_Scheduling_Project.cpp}{\textcolor{blue}{\textbf{Dynamic Task Scheduling for Energy-Efficient Mobile Cloud Computing}}} \emph{$|$ C++, STL, OOPS} }{\textbf{Dec 2022}}
+        \resumeItemListStart
+       
+        \resumeItem{Transformed research paper insights into practical, adaptable algorithm, showcasing the application of academic knowledge.}
+        \vspace{-10pt}
+            \resumeItem{Implemented task scheduling and migration algorithm for optimized execution on multiple cores and the cloud.}
+            \resumeItem{Calculated task priorities and selected execution units based on computation costs and dependencies.}
+            \resumeItem{Optimized energy consumption and completion time through schedule adjustments and task offloading.}
+            \resumeItem{Analyzed task graph for dependencies, ensuring correct execution order and maximizing parallelism.}
+\resumeItemListEnd
+
+     \vspace{1pt}
+      \resumeProjectHeading
+      {\href{}
+        {\textcolor{blue}{\textbf{Robotic Scorpion}}} \emph{$|$ATMEGA32, Embedded C, Zigbee, MEMS Sensor, FLex Sensor, Arduino, IOT}}{\textbf{Feb 2019}}
+        \resumeItemListStart
+        
+            \resumeItem{Designed, built, and tested a PCB, integrating an ARM-based processor for the core functioning of the robotic scorpion.}
+            \resumeItem{Built RF remote to transmit and receive data wirelessly to robot supervised by ATMEGA 32microcontroller.}
+            \resumeItem{Implemented kinematic algorithms to maintain position control on motors using MEMS technology and Flec Sensors}
+
+\resumeItem{Developed and implemented a real-time robot status display system using an LCD screen interfaced with a microcontroller}
+          \resumeItemListEnd
+          \vspace{-12pt}
+    \resumeProjectHeading
+   
+    % \resumeProjectHeading
+    %     {\textbf{Detection of Propaganda from News Articles}}{\textbf{}}
+    %     \resumeItemListStart
+    %         \resumeItem{Employed CNN with GloVe pre-trained embedding and NLP techniques on the newspaper data to detect the presence of propaganda and achieved efficiency of 86.7\%.}
+    %       \resumeItemListEnd
+
+
+ \vspace{-8pt}
+
+
+%-----------Hobbies-----------------
+%\section{Hobbies/Interests}
+%\begin{description}[font=\tiny$\bullet$]
+
+%\small{
+%\item {Exploring film and creative writing (storytelling) as outlets for imagination and work-life balance.}
+%\end{description}
+
+
+%-------------------------------------------
+
+\end{document}\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Shiva Resume}
+\author{Harin Kumar}
+\date{April 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
